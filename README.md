@@ -1,2 +1,2 @@
-# YDS-INO-BET-APP-PYTHON
-Python Aufgaben für den Berufserkundungstag
+# YDS-INO-BET-APP
+Python und HTML Aufgaben für den Berufserkundungstag
