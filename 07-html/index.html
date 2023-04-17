@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Mein HTML5-Boilerplate</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F0F0F0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      color: #333333;
+      margin-top: 40px;
+    }
+    p {
+      font-size: 18px;
+      color: #666666;
+      text-align: justify;
+      margin: 20px 0;
+    }
+    button {
+      background-color: #0088CC;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #006699;
+    }
+    #result {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0088CC;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meine Überschrift</h1>
+  <p>Dies ist ein kurzer Textabschnitt.</p>
+  <button onclick="addNumbers()">Addieren</button>
+  <p>Das Ergebnis der Addition ist: <span id="result"></span></p>
+
+  <script>
+    function addNumbers() {
+      var x = 5;
+      var y = 3;
+      var sum = x + y;
+      document.getElementById("result").innerHTML = sum;
+    }
+  </script>
+</body>
+</html>
